@@ -84,3 +84,19 @@ body {
   font-size: 26px;
   padding-right: 7px;
 }
+
+@media only screen and (max-width: 700px) {
+  .schedule-header {
+    display: grid;
+    gap: 20px;
+  }
+  .schedule-list {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .schedule-list button {
+    width: 100%;
+    padding: 20px 10px;
+  }
+}
